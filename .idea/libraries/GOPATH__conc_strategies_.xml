@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;conc_strategies&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../src/github.com" />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../src/github.com/mfenniak/go-soap/.git" />
+      <root url="file://$PROJECT_DIR$/../src/github.com/gorilla/mux/.git" />
+      <root url="file://$PROJECT_DIR$/../src/github.com/gorilla/context/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../src/github.com/jamesgarfield/wsdl2go/.git" />
+    </excluded>
+  </library>
+</component>
