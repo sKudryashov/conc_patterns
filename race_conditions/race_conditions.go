@@ -11,7 +11,6 @@ func GenerateRaceCondition() {
 	}()
 	m["2"] = "b" // Second conflicting access.
 	<-c
-	fmt.Print("Race condition generator")
 	for k, v := range m {
 		fmt.Println(k, v)
 	}

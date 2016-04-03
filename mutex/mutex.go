@@ -37,9 +37,9 @@ func MutexPackageSync()  {
 	pool.Get()
 	mutex := new(sync.Mutex)
 	fmt.Println("Time start: %s", time.Now())
-	mutex.Lock()
 	for i := 1; i < 10; i++ {
 		for j:=1; j<10; j++ {
+			mutex.Lock()
 			go func () {
 				mutex.Unlock()
 				fmt.Printf("Synced with sync.Mutex i is %d j is %d ", i, j)
